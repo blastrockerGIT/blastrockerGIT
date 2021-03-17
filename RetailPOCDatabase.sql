@@ -27,7 +27,7 @@ USE `retailpoc` ;
 -- -----------------------------------------------------
 -- Table `retailpoc`.`tbproduct`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `retailpoc`.`tbproduct` (
+CREATE TABLE IF NOT EXISTS `retailpoc`.`tbproduct` ( 
   `ProductCode` INT NOT NULL,
   `ProductName` VARCHAR(45) NULL DEFAULT NULL,
   `ProductSelling` DECIMAL(10,2) NULL DEFAULT NULL,
